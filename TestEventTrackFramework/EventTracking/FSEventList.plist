@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Accept_Delivery_Started</key>
+	<dict>
+		<key>category</key>
+		<string>Receiver</string>
+		<key>action</key>
+		<string>Accept_Delivery_Started</string>
+	</dict>
+	<key>Accept_Delivery_Completed</key>
+	<dict>
+		<key>category</key>
+		<string>Receiver</string>
+		<key>action</key>
+		<string>Accept_Delivery_Completed</string>
+	</dict>
+	<key>User_Started_Registration_Process</key>
+	<dict>
+		<key>category</key>
+		<string>Registration</string>
+		<key>action</key>
+		<string>Started_Registration</string>
+	</dict>
+	<key>User_Completed_Registration_Process</key>
+	<dict>
+		<key>category</key>
+		<string>Registration</string>
+		<key>action</key>
+		<string>Completed_Registration</string>
+	</dict>
+	<key>Social_Signup_Started</key>
+	<dict>
+		<key>category</key>
+		<string>Registration</string>
+		<key>action</key>
+		<string>Social_Signup_Started</string>
+	</dict>
+	<key>Social_Signup_Completed</key>
+	<dict>
+		<key>category</key>
+		<string>Registration</string>
+		<key>action</key>
+		<string>Social_Signup_Completed</string>
+	</dict>
+	<key>User_Signed_In</key>
+	<dict>
+		<key>category</key>
+		<string>Sign In</string>
+		<key>action</key>
+		<string>Sign_In</string>
+	</dict>
+	<key>Fetch_Package_Clicked</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Package_Clicked</string>
+	</dict>
+	<key>Send_Package_Clicked</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Package_Clicked</string>
+	</dict>
+	<key>Send_Order_Started</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Order_Started</string>
+	</dict>
+	<key>Fetch_Order_Started</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Order_Started</string>
+	</dict>
+	<key>Send_Now_Order_Started</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Order_Started</string>
+	</dict>
+	<key>Fetch_Now_Order_Started</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Order_Started</string>
+	</dict>
+	<key>Fetch_Order_Completed</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Order_Completed</string>
+	</dict>
+	<key>Send_Order_Completed</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Order_Completed</string>
+	</dict>
+	<key>Fetch_Order_Cancelled</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Order_Cancelled</string>
+	</dict>
+	<key>Send_Order_Cancelled</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Order_Cancelled</string>
+	</dict>
+	<key>Fetch_Now_Order_Completed</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Order_Completed</string>
+	</dict>
+	<key>Send_Now_Order_Completed</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Order_Completed</string>
+	</dict>
+	<key>Fetch_Now_Order_Cancelled</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Order_Cancelled</string>
+	</dict>
+	<key>Send_Now_Order_Cancelled</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Order_Cancelled</string>
+	</dict>
+	<key>Send_Pickup_Location_Selected</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Pickup_Location_Selected</string>
+	</dict>
+	<key>Send_Additional_Details_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Additional_Details_Filled</string>
+	</dict>
+	<key>Send_Whats_Inside_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Whats_Inside_Filled</string>
+	</dict>
+	<key>Send_Pickup_Date_And_Time_Set</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Pickup_Date_And_Time_Set</string>
+	</dict>
+	<key>Send_Recepient_Info_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Recepient_Info_Filled</string>
+	</dict>
+	<key>Send_Payment_Method_Selected</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Payment_Method_Selected</string>
+	</dict>
+	<key>Send_I_Will_Schedule_Delivery</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_I_Will_Schedule_Delivery</string>
+	</dict>
+	<key>Send_Recepient_Will_Schedule_Delivery</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Recepient_Will_Schedule_Delivery</string>
+	</dict>
+	<key>Send_Credit_Card_Payment</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Credit_Card_Payment</string>
+	</dict>
+	<key>Send_Cash_Payment</key>
+	<dict>
+		<key>category</key>
+		<string>Send Order</string>
+		<key>action</key>
+		<string>Send_Cash_Payment</string>
+	</dict>
+	<key>Fetch_Pickup_Location_Selected</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Pickup_Location_Selected</string>
+	</dict>
+	<key>Fetch_Additional_Details_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Additional_Details_Filled</string>
+	</dict>
+	<key>Fetch_Whats_Inside_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Whats_Inside_Filled</string>
+	</dict>
+	<key>Fetch_Pickup_Date_And_Time_Set</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Pickup_Date_And_Time_Set</string>
+	</dict>
+	<key>Fetch_Recepient_Info_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Recepient_Info_Filled</string>
+	</dict>
+	<key>Fetch_Delivery_Date_And_Time_Set</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Delivery_Date_And_Time_Set</string>
+	</dict>
+	<key>Fetch_Payment_Method_Selected</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Order</string>
+		<key>action</key>
+		<string>Fetch_Payment_Method_Selected</string>
+	</dict>
+	<key>Send_Now_Pickup_Location_Selected</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Pickup_Location_Selected</string>
+	</dict>
+	<key>Send_Now_Order_Details_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Order_Details_Filled</string>
+	</dict>
+	<key>Send_Now_Whats_Inside_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Whats_Inside_Filled</string>
+	</dict>
+	<key>Send_Now_Pickup_Date_And_Time_Set</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Pickup_Date_And_Time_Set</string>
+	</dict>
+	<key>Send_Now_Recepient_Info_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Recepient_Info_Filled</string>
+	</dict>
+	<key>Send_Now_Payment_Method_Selected</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Payment_Method_Selected</string>
+	</dict>
+	<key>Send_Now_I_Will_Schedule_Delivery</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_I_Will_Schedule_Delivery</string>
+	</dict>
+	<key>Send_Now_Recepient_Will_Schedule_Delivery</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Recepient_Will_Schedule_Delivery</string>
+	</dict>
+	<key>Send_Now_Credit_Card_Payment</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Credit_Card_Payment</string>
+	</dict>
+	<key>Send_Now_Cash_Payment</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Send_Now_Cash_Payment</string>
+	</dict>
+	<key>Fetch_Now_Pickup_Location_Selected</key>
+	<dict>
+		<key>category</key>
+		<string>Send Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Pickup_Location_Selected</string>
+	</dict>
+	<key>Fetch_Now_Additional_Details_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Additional_Details_Filled</string>
+	</dict>
+	<key>Fetch_Now_Whats_Inside_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Whats_Inside_Filled</string>
+	</dict>
+	<key>Fetch_Now_Pickup_Date_And_Time_Set</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Pickup_Date_And_Time_Set</string>
+	</dict>
+	<key>Fetch_Now_Recepient_Info_Filled</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Recepient_Info_Filled</string>
+	</dict>
+	<key>Fetch_Now_Delivery_Date_And_Time_Set</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Delivery_Date_And_Time_Set</string>
+	</dict>
+	<key>Fetch_Now_Payment_Method_Selected</key>
+	<dict>
+		<key>category</key>
+		<string>Fetch Now Order</string>
+		<key>action</key>
+		<string>Fetch_Now_Payment_Method_Selected</string>
+	</dict>
+</dict>
+</plist>
