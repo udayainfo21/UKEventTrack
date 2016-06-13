@@ -19,5 +19,9 @@ public class EventTrackAppDelegate: NSObject, UIApplicationDelegate {
     
     public func applicationDidFinishLaunching(application: UIApplication, launchOptions: [NSObject: AnyObject]?) {
         FSFirebaseConfigurator.startFirebase()
+        
+        if let path = NSBundle.mainBundle().pathForResource("GoogleService-Info", ofType: "plist"), dict = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
+            print("GoogleService-Info plist file \(dict)")
+        }
     }
 }

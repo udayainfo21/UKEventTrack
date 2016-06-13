@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>755058963071-ieepdk2sshgbvvn7ea9pdpablivn7a28.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.755058963071-ieepdk2sshgbvvn7ea9pdpablivn7a28</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCS7PNgllT7vdSQkxb0smiwfqCUTyIsSYA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>755058963071</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fetchr.CustomerApp-Beta</string>
+	<key>PROJECT_ID</key>
+	<string>fetchr-beta</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fetchr-beta.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:755058963071:ios:c6c6e3aaba3c6cad</string>
+	<key>DATABASE_URL</key>
+	<string>https://fetchr-beta.firebaseio.com</string>
+</dict>
+</plist>
