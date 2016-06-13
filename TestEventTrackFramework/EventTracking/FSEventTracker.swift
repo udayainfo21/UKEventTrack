@@ -10,13 +10,15 @@ import UIKit
 import Foundation
 import Firebase
 
-public final class FSEventTracker {
+public class FSEventTracker {
     
-    public static let sharedInstance = FSEventTracker()
-
     // FSEventTracker().logEventWithName(EventName.Fetch_Delivery_Date_And_Time_Set.rawValue)
     
-    func logEventWithName(eventName:String) {
+    public init() {
+        print("FSEventTracker in the framework is initialized")
+    }
+    
+    public func logEventWithName(eventName:String) {
         if let path = NSBundle.mainBundle().pathForResource("FSEventList", ofType: "plist"), dictionary = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
             if let eventDict = dictionary[eventName] as! NSDictionary? {
                 let event = EventTracker.Request(category: eventDict["category"] as! String, action: eventDict["action"] as! String, name: eventName)
