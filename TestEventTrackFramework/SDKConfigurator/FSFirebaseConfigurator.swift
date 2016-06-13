@@ -12,12 +12,10 @@ import FirebaseInstanceID
 import FirebaseMessaging
 import FirebaseDynamicLinks
 
-let CUSTOM_URL_SCHEME = "fetchr"
-
 public struct FSFirebaseConfigurator {
-    public static func startFirebase() {
-        FIROptions.defaultOptions().deepLinkURLScheme = CUSTOM_URL_SCHEME
-        FIRAppIndexing.sharedInstance().registerApp(970996178)
+    public static func startFirebase(appId:UInt, appScheme:String) {
+        FIROptions.defaultOptions().deepLinkURLScheme = appScheme
+        FIRAppIndexing.sharedInstance().registerApp(appId)
         FIRApp.configure()
     }
 }

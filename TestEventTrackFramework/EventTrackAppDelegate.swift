@@ -17,11 +17,7 @@ public class EventTrackAppDelegate: NSObject, UIApplicationDelegate {
     public static let shared = EventTrackAppDelegate()
     private override init() { }
     
-    public func applicationDidFinishLaunching(application: UIApplication, launchOptions: [NSObject: AnyObject]?) {
-        FSFirebaseConfigurator.startFirebase()
-        
-        if let path = NSBundle.mainBundle().pathForResource("GoogleService-Info", ofType: "plist"), dict = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
-            print("GoogleService-Info plist file \(dict)")
-        }
+    public func applicationDidFinishLaunching(application: UIApplication, launchOptions: [NSObject: AnyObject]?, appId:UInt, appScheme:String) {
+        FSFirebaseConfigurator.startFirebase(appId, appScheme:appScheme)
     }
 }

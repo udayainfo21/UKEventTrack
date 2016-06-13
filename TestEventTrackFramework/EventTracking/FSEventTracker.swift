@@ -20,17 +20,11 @@ public class FSEventTracker {
     
     public func logEventWithName(eventName:String) {
         
-        print("logEventWithName in the framework is initialized \(eventName)")
-        
         if let path = NSBundle.mainBundle().pathForResource("FSEventList", ofType: "plist"), dictionary = NSDictionary(contentsOfFile: path) as? [String: AnyObject] {
-            
-            print("logEventWithName in the framework plist path is found")
             
             if let eventDict = dictionary[eventName] as! NSDictionary? {
                 let event = EventTracker.Request(category: eventDict["category"] as! String, action: eventDict["action"] as! String, name: eventName)
                 FSEventTracker().configureTrackingEvent(event)
-                
-                print("logEventWithName in the framework plist dictionary \(event.category) , action \(event.action)")
             }
         }
     }
