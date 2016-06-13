@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F61BB1563B19B86006F9F4E /* Pods_TestEventTrackFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0A0CC92A878A6019772397 /* Pods_TestEventTrackFramework.framework */; };
+		784A8D901D0E89140084A899 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 784A8D8F1D0E89140084A899 /* GoogleService-Info.plist */; };
 		78DEEE9B1D0D085B004990D1 /* TestEventTrackFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DEEE9A1D0D085B004990D1 /* TestEventTrackFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78DEEEA91D0D086F004990D1 /* EventTrackAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DEEEA21D0D086F004990D1 /* EventTrackAppDelegate.swift */; };
 		78DEEEAA1D0D086F004990D1 /* FSEventList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78DEEEA41D0D086F004990D1 /* FSEventList.plist */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		0216456CE42E7CD5998D1F92 /* Pods-TestEventTrackFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestEventTrackFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestEventTrackFramework/Pods-TestEventTrackFramework.release.xcconfig"; sourceTree = "<group>"; };
 		0CE4394F1F7E9FC4B7973B58 /* Pods-TestEventTrackFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestEventTrackFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestEventTrackFramework/Pods-TestEventTrackFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		784A8D8F1D0E89140084A899 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		78DEEE971D0D085B004990D1 /* TestEventTrackFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestEventTrackFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DEEE9A1D0D085B004990D1 /* TestEventTrackFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestEventTrackFramework.h; sourceTree = "<group>"; };
 		78DEEE9C1D0D085B004990D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				78DEEEA31D0D086F004990D1 /* EventTracking */,
 				78DEEEA71D0D086F004990D1 /* SDKConfigurator */,
 				78DEEE9A1D0D085B004990D1 /* TestEventTrackFramework.h */,
+				784A8D8F1D0E89140084A899 /* GoogleService-Info.plist */,
 				78DEEE9C1D0D085B004990D1 /* Info.plist */,
 			);
 			path = TestEventTrackFramework;
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78DEEEAA1D0D086F004990D1 /* FSEventList.plist in Resources */,
+				784A8D901D0E89140084A899 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +200,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestEventTrackFramework/Pods-TestEventTrackFramework-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TestEventTrackFramework/Pods-TestEventTrackFramework-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C48976FF165F1DB2EF238EBF /* 📦 Check Pods Manifest.lock */ = {
